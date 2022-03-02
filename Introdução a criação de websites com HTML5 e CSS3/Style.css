@@ -1,0 +1,13 @@
+#title, .subtitle, .post_title0, .post_title1{
+    color: blue;
+}
+
+.post_title0{
+    font-size: 16px;
+    font-style:italic;
+}
+
+.post_title1{
+    font-size: 16px;
+    font-style: italic;
+}
