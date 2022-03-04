@@ -1,9 +1,16 @@
 body{
     background-color:rgb(226, 211, 211);
+    font-family: Verdana;
 }
 
 #title, .subtitle, .post_title{
     color: blue;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+a{
+    text-decoration: underline
 }
 
 .post_title{
