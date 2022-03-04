@@ -1,5 +1,5 @@
 body{
-    background-color:silver;
+    background-color:rgb(226, 211, 211);
 }
 
 #title, .subtitle, .post_title{
@@ -9,12 +9,26 @@ body{
 .post_title{
     font-size: 16px;
     font-style:italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post{
-    background-color: aliceblue;
-    padding: 20px;
-    border: 10px solid #000;
-    margin: 10px;
+    background-color: rgb(220, 227, 233);
+    padding: 10px;
+    border: 10px solid rgb(90, 88, 88);
+    margin-bottom: 15px;
+    border-radius: 10%;
+
+    }
+    
+    .post_content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image{
+    margin-bottom: 15px;
+    }
 
 }
