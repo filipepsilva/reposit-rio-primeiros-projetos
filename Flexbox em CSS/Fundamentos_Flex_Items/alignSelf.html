@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamento - align self</title>
+    <style>
+        .flex-container{
+            display: flex;
+            border: 2px solid black;
+            max-width: 350px;
+            margin-bottom: 10px;
+        }
+        .align-container{
+            align-items: center;
+        }
+        .item{
+            background: chartreuse;
+            color: aliceblue;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .center{
+            align-self: center;
+        }
+        .start{
+            align-self: flex-start;
+        }
+        .end{
+            align-self: flex-end;
+        }
+        .baseline{
+            align-self: baseline;
+        }
+        stretch{
+            align-self: stretch;
+        }
+        .auto{
+            align-self: auto;
+        }
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h2>Align self auto</h2>
+    <section class="flex-container align-container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum i therefore alqways fre from</div>
+        <div class="item auto">ITEM 4</div>
+    </section>
+    <h2>Align self misturado</h2>
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem Ipsum i therefore alqways fre from</div>
+        <div class="item end">ITEM 4</div>
+    </section>
+    <h2>Align self misturado</h2>
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">AAaaaaaaaaaaaaaaaA</div>
+        <div class="item end">AAA</div>
+     </section>
+     <h2>Align self auto</h2>
+    <section class="flex-container align-container column">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Lorem Ipsum i therefore alqways fre from</div>
+        <div class="item auto">ITEM 4</div>
+    </section>
+    <h2>Align self misturado</h2>
+    <section class="flex-container column">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Lorem Ipsum i therefore alqways fre from</div>
+        <div class="item end">ITEM 4</div>
+    </section>
+    <h2>Align self misturado</h2>
+    <section class="flex-container column">
+        <div class="item center">AAA</div>
+        <div class="item start">AAaaaaaaaaaaaaaaaA</div>
+        <div class="item end">AAA</div>
+     </section>      
+</body>
+</html>
