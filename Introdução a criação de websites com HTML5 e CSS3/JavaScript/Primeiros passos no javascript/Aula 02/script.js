@@ -1,7 +1,7 @@
 // Tipos primitivos
 
 //bollean
-var VouF = false;
+/*var VouF = false;
 console.log(typeof(VouF));
 
 //number
@@ -20,7 +20,7 @@ console.log(variavel);
 //Variáveis de escolo global e Local
 
 var escopoglobal  = 'escopo';
-console.log(escopoglobal);
+console.log(escopoglobal);*/
 
 function escopoLocal ( ){
     let escopoLocalInterno = 'local'
